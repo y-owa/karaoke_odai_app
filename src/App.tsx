@@ -428,7 +428,17 @@ export default function KaraokeOdaiApp() {
         </div>
 
         <div className="mt-6 text-center text-xs text-slate-400">
-          <p>楽しいカラオケタイムを🎤</p>
+          <div className="mt-2 pt-2 border-t border-slate-200">
+            <p>Created by Y.Owa</p>
+            <a 
+              href="https://github.com/y-owa/karaoke_odai_app" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-slate-500 hover:text-slate-700 underline"
+            >
+              GitHub Repository
+            </a>
+          </div>
         </div>
       </div>
     </div>
